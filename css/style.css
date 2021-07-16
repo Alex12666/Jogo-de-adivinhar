@@ -1,0 +1,89 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+header{
+background: blue;
+width: 100%;
+padding: 30px 30px;
+text-align: center;
+}
+h1{
+color: white;
+font-family: sans-serif;
+text-transform: uppercase;
+}
+.adivinhar{
+
+padding-top: 30px;
+}
+input{
+border-radius:30px;
+font-size: 30px;
+width: 100px;
+height: 50px;
+margin-top: 20px;
+text-align: center;
+cursor: pointer;
+border: 0;
+
+}
+p{
+color: white;
+font-family: sans-serif;
+text-transform: uppercase;
+
+}
+.but{
+margin-top: 30px;
+width: 100px;
+height: 50px;
+background: red;
+border: 0;
+border-radius:100px;
+color: white;
+}
+
+.but:hover{
+margin-top: 40px;
+width: 200px;
+height: 50px;
+background: blueviolet;
+border: 0;
+border-radius:100px;
+color: blue;
+}
+.resutado{
+margin: auto;
+width: 100px;
+height: 50px;
+background: white;
+margin-top: 40px;
+border-radius:30px;
+padding: auto;
+font-size: 30px;
+
+}
+section{
+display: flex;
+
+}
+
+.winner{
+background: blueviolet;
+width: 100%;
+height: 500px;
+color: white;
+font-size: 30px;
+
+}
+.loss{
+background: red;
+width: 100%;
+height: 500px;
+color: white;
+font-size: 30px;
+}
+
+
